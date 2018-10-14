@@ -42,17 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extractor.cs" />
     <Compile Include="Model\Classification.cs" />
     <Compile Include="Model\Denomination.cs" />
     <Compile Include="Model\Orientation.cs" />
     <Compile Include="Model\Polity.cs" />
-    <Compile Include="Model\Wiki\Contributor.cs" />
     <Compile Include="Model\Wiki\MediaWiki.cs" />
     <Compile Include="Model\Wiki\Page.cs" />
     <Compile Include="Model\Wiki\Revision.cs" />
-    <Compile Include="Model\Wiki\SiteInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WikiExtractor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
